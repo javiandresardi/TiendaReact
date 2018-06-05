@@ -1,0 +1,35 @@
+{
+  "name": "la_bodega",
+  "version": "1.0.0",
+  "description": "react_exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit ",
+    "serve": " live-server public/",
+    "build": "webpack",
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "firebase": "^4.12.0",
+    "live-server": "^1.2.0",
+    "node-sass": "^4.5.3",
+    "normalize.css": "^7.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-modal": "^2.2.2",
+    "react-router": "^3.0.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "superagent": "^3.8.2",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
